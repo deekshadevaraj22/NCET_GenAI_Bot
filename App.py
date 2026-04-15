@@ -6,7 +6,7 @@ st.set_page_config(page_title="PragyanAI Content Generator", layout="wide")
 
 # Title and image
 st.title("PragyanAI - Content Generator")
-st.image("OIP.jpeg")
+st.image("OIP.jpg")
 
 # Get GROQ API Key
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
