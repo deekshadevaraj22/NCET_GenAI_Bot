@@ -2,10 +2,10 @@ import streamlit as st
 from groq import Groq
 
 # Page config
-st.set_page_config(page_title="PragyanAI Content Generator", layout="wide")
+st.set_page_config(page_title="AI Content Generator", layout="wide")
 
 # Title and image
-st.title("PragyanAI - Content Generator")
+st.title("AI - Content Generator")
 st.image("OIP.jpg")
 
 # Get GROQ API Key
